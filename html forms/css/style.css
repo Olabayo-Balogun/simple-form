@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: green;
+}
+
+.input-field {
+  margin-bottom: 1.25rem;
+  background-color: black;
+}
+
+form {
+  max-width: 31.25rem;
+  margin: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: black;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+  background-color: lightblue;
+  appearance: none;
+  border: none;
+  display: block;
+  font-size: 0.75rem;
+  padding: 0.625rem;
+  margin-top: 0.3125;
+  margin-bottom: 0.3125;
+  width: 100%;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  background: none;
+  border-bottom: 0.0625rem solid blue;
+  padding-left: 0rem;
+  outline: none;
+}
+
+fieldset {
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: wheat;
+  background-color: black;
+}
+
+fieldset .section-title {
+  margin-bottom: 1.25rem;
+  background-color: black;
+}
+
+.radio-button {
+  margin-right: 0.25rem;
+}
+
+label {
+  background-color: black;
+}
+
+h1 {
+  background-color: black;
+  color: wheat;
+  text-align: center;
+}
+
+h5 {
+  background-color: black;
+}
+
+h3 {
+  background-color: black;
+}
+
+fieldset {
+  border-color: black;
+}

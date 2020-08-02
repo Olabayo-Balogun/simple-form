@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to html forms</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <form action="">
+      <header><h1>ADMISSION FORM</h1></header>
+      <fieldset class="section-title">
+        <h3>Personal Data</h3>
+        <div class="input-field">
+          <label for="firstname">First name</label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            value=""
+            placeholder="Click here to input your first name"
+          />
+        </div>
+
+        <div class="input-field">
+          <label for="surname">Surname</label>
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+            value=""
+            placeholder="Click here to input your surname"
+          />
+        </div>
+
+        <div class="input-field">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value=""
+            placeholder="Click here to input your email address"
+          />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <h5>Select your schools of choice</h5>
+        <div class="input-field">
+          <label for="">UNILAG</label>
+          <input
+            type="checkbox"
+            name="Schools-of-choice"
+            id=""
+            value="UNILAG"
+          />
+        </div>
+        <div class="input-field">
+          <label for="">UNIBEN</label>
+          <input
+            type="checkbox"
+            name="Schools-of-choice"
+            id=""
+            value="UNIBEN"
+          />
+        </div>
+        <div class="input-field">
+          <label for="">UNIBEN</label>
+          <input
+            type="checkbox"
+            name="Schools-of-choice"
+            id=""
+            value="UNIBEN"
+          />
+        </div>
+        <div class="input-field">
+          <label for="">FUTA</label>
+          <input type="checkbox" name="Schools-of-choice" id="" value="FUTA" />
+        </div>
+        <div class="input-field">
+          <label for="">COVENANT</label>
+          <input
+            type="checkbox"
+            name="Schools-of-choice"
+            id=""
+            value="COVENANT"
+          />
+        </div>
+        <div class="input-field">
+          <label for="">UI</label>
+          <input type="checkbox" name="Schools-of-choice" id="" value="UI" />
+        </div>
+
+        <h5>Select your school of choice</h5>
+
+        <div class="input-field">
+          <label for="">UNILAG</label>
+          <input type="radio" name="School-of-choice" id="" value="UNILAG" />
+
+          <label for="">LASU</label>
+          <input type="radio" name="School-of-choice" id="" value="LASU" />
+          <label for="">UNIBEN</label>
+          <input type="radio" name="School-of-choice" id="" value="UNIBEN" />
+
+          <label for="">FUTA</label>
+          <input type="radio" name="School-of-choice" id="" value="FUTA" />
+          <label for="">COVENANT</label>
+          <input type="radio" name="School-of-choice" id="" value="COVENANT" />
+
+          <label for="">UI</label>
+          <input type="radio" name="School-of-choice" id="" value="UI" />
+        </div>
+
+        <div class="input-field">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Please click here to input your password"
+            id=""
+          />
+        </div>
+
+        <div class="input-field">
+          <label for="preferred-institution">Preferred institution</label>
+          <select name="preferred-institution" id="">
+            <option value="">Click here to select institution</option>
+            <option value="UNILAG">UNILAG</option>
+            <option value="LASU">LASU</option>
+            <option value="UNIBEN">UNIBEN</option>
+            <option value="COVENANT">COVENANT</option>
+            <option value="UI">UI</option>
+          </select>
+        </div>
+
+        <div class="input-field">
+          <label for="Range-of-satisfaction"
+            >How satisfied with our website are you?</label
+          >
+          <input type="range" name="range" id="range" />
+        </div>
+
+        <div class="input-field">
+          <label for="comment">Please leave a comment below</label> <br />
+
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Please click here to leave a comment"
+          ></textarea>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
